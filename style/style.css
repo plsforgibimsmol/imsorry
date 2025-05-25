@@ -218,12 +218,14 @@ body {
 }
 
 .wish h5 {
-  font-size: 1.5rem; /* try 1rem if still too big */
+  font-size: 1.8rem; /* ~60% larger than 1.2rem */
   max-width: 90%;
   margin: 20px auto 0;
   padding: 0 10px;
   line-height: 1.6;
   word-break: break-word;
+  font-family: "Dancing Script", cursive; /* or any font you prefer */
+  text-align: center;
 }
 
 
