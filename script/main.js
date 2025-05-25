@@ -166,7 +166,7 @@ const animationTimeline = () => {
         ease: Expo.easeOut,
       },
       0.2,
-      "+=1"
+      "+=2"
     )
     .staggerFromTo(
       ".baloons img",
@@ -262,7 +262,7 @@ const animationTimeline = () => {
       {
         rotation: 90,
       },
-      "+=1"
+      "+=2"
     );
 
   // tl.seek("currentStep");
