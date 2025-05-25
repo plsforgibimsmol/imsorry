@@ -5,14 +5,9 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: #ffe6f0;
-  background-image: url("img/heartss.jpg"); /* Replace with actual file name */
+  background: linear-gradient(rgba(255, 192, 203, 0.1), rgba(255, 192, 203, 0.1)), 
+              url('img/heartss.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* Make sure it stays fixed even when scrolling */
-  background-attachment: fixed;
 }
 
 .container {
