@@ -5,6 +5,14 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: #ffe6f0;
+  background-image: url("img/heartss.jpg"); /* Replace with actual file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Make sure it stays fixed even when scrolling */
+  background-attachment: fixed;
 }
 
 .container {
@@ -267,6 +275,8 @@ body {
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
+    position: relative;
+    z-index: 2;
   }
 
   .four .text-box {
@@ -302,5 +312,12 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+  .container > div {
+  z-index: 2;
+  position: relative;
+  }
+  .eight svg {
+  z-index: 1;
   }
 }
