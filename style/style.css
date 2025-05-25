@@ -220,11 +220,11 @@ body {
 .wish h5 {
   font-size: 1.5rem !important; /* ~60% larger than 1.2rem */
   max-width: 90%;
-  margin: 30px auto 0;
+  margin: 25px auto 0;
   padding: 0 10px;
   line-height: 1.6;
   word-break: break-word;
-  font-family: "Delius" !important; /* or any font you prefer */
+  font-family: 'Delius' !important; /* or any font you prefer */
   text-align: center;
 }
 
